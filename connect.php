@@ -2,9 +2,9 @@
 /**
  * Author: Henry Granados
  * write-------------"SELECT `name ` " to select ONLY the Column name.
- * write -------------WHERE nombre = 'Henry' to select ONLY the name of an specific user.
- * write--------------ORDER BY nombre ASC to order the database (Ascending)
- * write--------------ORDER BY nombre DESC to order the database(Descending)
+ * write -------------WHERE name = 'Henry' to select ONLY the name of an specific user.
+ * write--------------ORDER BY name ASC to order the database (Ascending)
+ * write--------------ORDER BY name DESC to order the database(Descending)
  * write--------------Example LIMIT 1 to limit the numer of people
  */
 include 'index.php';
