@@ -5,7 +5,7 @@
 	 */
 	$mysql_host = 'localhost';
 	$mysql_user = 'root';
-	$mysql_pass = 'compu123';
+	$mysql_pass = '';
 	/**
 	 *variable that stores the table that we are using from our DataBase.
 	 */
