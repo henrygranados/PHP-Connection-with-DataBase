@@ -9,13 +9,13 @@
 	/**
 	 *variable that stores the table that we are using from our DataBase.
 	 */
-	$mysql_db = 'personas';
+	$mysql_db = 'people';
 	
 	/**
 	 * connection with MySql DataBase using localhost, user and password.
 	 */
 	@mysql_connect($mysql_host , $mysql_user , $mysql_pass) or die('cannot connect');
-	@mysql_select_db($mysql_db) or die('No se pudo conectar');
+	@mysql_select_db($mysql_db) or die('Cannot connect');
 	
 	echo 'Connected to Database'.'<br/><br/>';
 ?>
