@@ -9,7 +9,7 @@
  */
 include 'index.php';
 
-$query = mysql_query("SELECT * FROM personas.clientes ");
+$query = mysql_query("SELECT * FROM people.clients ");
 
 while($fila = mysql_fetch_assoc($query))
 {
